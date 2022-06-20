@@ -9,8 +9,9 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CribaEratostenes</RootNamespace>
     <AssemblyName>CribaEratostenes</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <Name>CribaEratostenes</Name>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

@@ -6,7 +6,7 @@ let EratoEstructurada n =
     let mutable x = n
     while(x > 1) do
         let mutable esprimo = true
-        for i in 2 .. x do
+        for i in 2 .. (x - 1) do
             if (x % i = 0) then
                 esprimo <- false
         if (esprimo) then
@@ -17,10 +17,13 @@ let rec EratoRecursivo n =
     if (n > 1) then
         let mutable x = n
         let mutable esprimo = true
-        for i in 2 .. x do
-            if (x % i = 0) then
-                EratoRecursivo(x - 1)
-                esprimo <- false
+        let mutable loop = true
+        for i in 2 .. (x - 1) do
+            if (loop) then
+                if (x % i = 0) then
+                    EratoRecursivo(x - 1)
+                    esprimo <- false
+                    loop <- false
         if (esprimo) then
             EratoRecursivo(x - 1)
             printfn"%i" x

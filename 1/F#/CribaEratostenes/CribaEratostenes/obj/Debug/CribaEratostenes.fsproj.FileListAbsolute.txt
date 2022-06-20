@@ -1,0 +1,10 @@
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\bin\Debug\CribaEratostenes.exe.config
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\bin\Debug\CribaEratostenes.XML
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\bin\Debug\CribaEratostenes.exe
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\bin\Debug\CribaEratostenes.pdb
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\bin\Debug\FSharp.Core.dll
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\bin\Debug\FSharp.Core.xml
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\bin\Debug\es\FSharp.Core.resources.dll
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\obj\Debug\CribaEratostenes.fsprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\obj\Debug\CribaEratostenes.exe
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\1\F#\CribaEratostenes\CribaEratostenes\obj\Debug\CribaEratostenes.pdb
