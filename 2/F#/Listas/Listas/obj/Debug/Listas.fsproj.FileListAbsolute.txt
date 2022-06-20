@@ -1,0 +1,9 @@
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\bin\Debug\Listas.exe.config
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\bin\Debug\Listas.XML
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\bin\Debug\Listas.exe
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\bin\Debug\Listas.pdb
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\bin\Debug\FSharp.Core.dll
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\bin\Debug\FSharp.Core.xml
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\bin\Debug\es\FSharp.Core.resources.dll
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\obj\Debug\Listas.exe
+C:\Users\HP\Desktop\Miguel\INF319\Recuperatorio\2\F#\Listas\Listas\obj\Debug\Listas.pdb
