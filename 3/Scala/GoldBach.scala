@@ -1,43 +1,54 @@
 object GoldBach {
     def GoldBach() {
-        for (i <- 4 to 101) {
-            i = i + 1;
-            temp = i;
-            a = 0;
-            b = 0;
-            while (temp > 1) {
-                esprimo_1 = True;
-                for (j <- 2 to temp) {
-                    if (temp % j == 0) { 
-                        esprimo_1 = False;
-                        break;
-                    }
-                    if (esprimo_1) {
-                        a = temp;
-                        break;
-                    }
-                }
-                temp_2 = temp; 
-                
-                while (temp_2 > 1) {
-                    esprimo_2 = True;
-                    for (k <- 2 totemp_2) {
-                        if temp_2 % k == 0 {
-                            esprimo_2 = False;
-                            break;
-                        }
-                        if (esprimo_2) {
-                            b = temp_2;
-                            if (a + b == i) {
-                                print(a, " + ", b, " = ", i);
-                                break;
+        var choice = true
+        for (i <- 4 to 100) {
+            if (choice) {
+                choice = false;
+                var temp = i;
+                var a = 0;
+                var b = 0;
+                while (temp > 1) {
+                    var esprimo_1 = true;
+                    var loop = true;
+                    for (j <- 2 to temp) {
+                        if (loop) {
+                            if (temp % j == 0) { 
+                                esprimo_1 = false;
+                                loop = false;
+                            }
+                            if (esprimo_1) {
+                                a = temp;
+                                loop = false;
                             }
                         }
                     }
-                    temp_2 -= 1
+                    var temp_2 = temp; 
+                    while (temp_2 > 1) {
+                        var esprimo_2 = true;
+                        loop = true;
+                        for (k <- 2 to temp_2) {
+                            if (loop) {
+                                if (temp_2 % k == 0) {
+                                    esprimo_2 = false;
+                                    loop = false;
+                                }
+                                if (esprimo_2) {
+                                    b = temp_2;
+                                    if (a + b == i) {
+                                        print (a + " + " + b + " = " + i + "\n");
+                                        loop = false;
+                                    }
+                                }
+                            }
+                        }
+                        temp_2 = temp_2 - 1
+                    }
+                    temp = temp - 1
                 }
-                temp -= 1
+            } else {
+                choice = true;
             }
+            
         }
     }
     def main(args: Array[String]):Unit = {
